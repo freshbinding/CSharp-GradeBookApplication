@@ -1,7 +1,7 @@
 ﻿namespace GradeBook.Enums
 {
-    public class GradeBookType
+    public enum GradeBookType
     {
-        public GradeBookType Type { get; set; }
+        
     }
 }
