@@ -44,7 +44,7 @@ namespace GradeBook.UserInterfaces
 
             BaseGradeBook gradeBook;
             Console.WriteLine("Created gradebook {0}.", name);
-            if(type == "standard")
+            if (type == "standard")
             {
                 gradeBook = new StandardGradeBook(name);
             }
